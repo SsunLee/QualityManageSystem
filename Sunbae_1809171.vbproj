@@ -1,0 +1,1407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35B9B19D-B693-4756-8565-7F97BBAF56D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QPortal</RootNamespace>
+    <AssemblyName>QPortal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Empty</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\10.169.88.43\업무 공유\Q-Portal\Install_Package\x86\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>ko-KR</TargetCulture>
+    <SuiteName>Q_Portal</SuiteName>
+    <MinimumRequiredVersion>3.8.36.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationVersion>3.8.40.12</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>\\10.174.51.56\업무 공유\이순배\NET_FRAMEWORK</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>QPortal.Main_Form</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\iCon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F2A2CA57DA1D5B46BAFD512649732373A0E2CE4F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Project2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="ADODB" />
+    <Import Include="Microsoft.Office.Interop.Access.Dao" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Runtime.InteropServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\DataSources\ADODB.ADOCommandConstruction.datasource" />
+    <None Include="My Project\DataSources\ADODB.ADOConnectionConstruction.datasource" />
+    <None Include="My Project\DataSources\ADODB.ADOConnectionConstruction15.datasource" />
+    <None Include="My Project\DataSources\ADODB.ADORecordConstruction.datasource" />
+    <None Include="My Project\DataSources\ADODB.ADORecordsetConstruction.datasource" />
+    <None Include="My Project\DataSources\ADODB.ADOStreamConstruction.datasource" />
+    <None Include="My Project\DataSources\ADODB.Command.datasource" />
+    <None Include="My Project\DataSources\ADODB.Command15.datasource" />
+    <None Include="My Project\DataSources\ADODB.Command25.datasource" />
+    <None Include="My Project\DataSources\ADODB.CommandClass.datasource" />
+    <None Include="My Project\DataSources\ADODB.Connection.datasource" />
+    <None Include="My Project\DataSources\ADODB.Connection15.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionClass.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEventsVt.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_BeginTransCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_CommitTransCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_ConnectCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_DisconnectEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_Event.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_ExecuteCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_InfoMessageEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_RollbackTransCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_SinkHelper.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_WillConnectEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.ConnectionEvents_WillExecuteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.Error.datasource" />
+    <None Include="My Project\DataSources\ADODB.Errors.datasource" />
+    <None Include="My Project\DataSources\ADODB.Field.datasource" />
+    <None Include="My Project\DataSources\ADODB.Field15.datasource" />
+    <None Include="My Project\DataSources\ADODB.Field20.datasource" />
+    <None Include="My Project\DataSources\ADODB.Fields.datasource" />
+    <None Include="My Project\DataSources\ADODB.Fields15.datasource" />
+    <None Include="My Project\DataSources\ADODB.Fields20.datasource" />
+    <None Include="My Project\DataSources\ADODB.Parameter.datasource" />
+    <None Include="My Project\DataSources\ADODB.ParameterClass.datasource" />
+    <None Include="My Project\DataSources\ADODB.Parameters.datasource" />
+    <None Include="My Project\DataSources\ADODB.Properties.datasource" />
+    <None Include="My Project\DataSources\ADODB.Property.datasource" />
+    <None Include="My Project\DataSources\ADODB.Record.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordClass.datasource" />
+    <None Include="My Project\DataSources\ADODB.Recordset.datasource" />
+    <None Include="My Project\DataSources\ADODB.Recordset15.datasource" />
+    <None Include="My Project\DataSources\ADODB.Recordset20.datasource" />
+    <None Include="My Project\DataSources\ADODB.Recordset21.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetClass.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEventsVt.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_EndOfRecordsetEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_Event.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_FetchCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_FetchProgressEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_FieldChangeCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_MoveCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_RecordChangeCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_RecordsetChangeCompleteEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_SinkHelper.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_WillChangeFieldEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_WillChangeRecordEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_WillChangeRecordsetEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.RecordsetEvents_WillMoveEventHandler.datasource" />
+    <None Include="My Project\DataSources\ADODB.Stream.datasource" />
+    <None Include="My Project\DataSources\ADODB.StreamClass.datasource" />
+    <None Include="My Project\DataSources\ADODB._ADO.datasource" />
+    <None Include="My Project\DataSources\ADODB._Collection.datasource" />
+    <None Include="My Project\DataSources\ADODB._Command.datasource" />
+    <None Include="My Project\DataSources\ADODB._Connection.datasource" />
+    <None Include="My Project\DataSources\ADODB._DynaCollection.datasource" />
+    <None Include="My Project\DataSources\ADODB._Parameter.datasource" />
+    <None Include="My Project\DataSources\ADODB._Record.datasource" />
+    <None Include="My Project\DataSources\ADODB._Recordset.datasource" />
+    <None Include="My Project\DataSources\ADODB._Stream.datasource" />
+    <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\DataSources\Form2.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.InstallCompletedEventArgs.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiActionMessage.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiCancelShowMessage.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiCaptionMessage.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiCommonDataMessage.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiInstallerSession.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiLanguageMessage.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiMessageEventArgs.datasource" />
+    <None Include="My Project\DataSources\InstallManager.Msi.MsiProgressMessage.datasource" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="14.MasterTC_Func\" />
+    <Folder Include="18.Delta_CheckList\" />
+    <Folder Include="22.3rd_Party\" />
+    <Folder Include="23.Random_Plan_v2.0\NUM_3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01.Dictionary\Dictionary_GM.designer.vb">
+      <DependentUpon>Dictionary_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01.Dictionary\Dictionary_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01.Dictionary\Terms_Request.Designer.vb">
+      <DependentUpon>Terms_Request.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01.Dictionary\Terms_Request.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02.Data of Education%28Not Use%29\Study_Contents.designer.vb">
+      <DependentUpon>Study_Contents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02.Data of Education%28Not Use%29\Study_Contents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03.Work Guide\Work_Guide.designer.vb">
+      <DependentUpon>Work_Guide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="03.Work Guide\Work_Guide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03.Work Guide\Work_Guide_Sub.designer.vb">
+      <DependentUpon>Work_Guide_Sub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="03.Work Guide\Work_Guide_Sub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04.Search Asset\Asset_Noti_etc.designer.vb">
+      <DependentUpon>Asset_Noti_etc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04.Search Asset\Asset_Noti_etc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05.Testing_Tools\TestTools.designer.vb">
+      <DependentUpon>TestTools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="05.Testing_Tools\TestTools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06.Testing_Contents\Contents_form.designer.vb">
+      <DependentUpon>Contents_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06.Testing_Contents\Contents_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07.New_Template\Recent_Template.designer.vb">
+      <DependentUpon>Recent_Template.vb</DependentUpon>
+    </Compile>
+    <Compile Include="07.New_Template\Recent_Template.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\Search_App.designer.vb">
+      <DependentUpon>Search_App.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08.Detect TD\Search_App.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\set_Form.Designer.vb">
+      <DependentUpon>set_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08.Detect TD\set_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary.designer.vb">
+      <DependentUpon>Summary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary_Add.designer.vb">
+      <DependentUpon>Summary_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary_NEXT.designer.vb">
+      <DependentUpon>Summary_NEXT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08.Detect TD\Summary_NEXT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08.Detect TD\Table_class.vb" />
+    <Compile Include="09.VP_Report\VP_Report_Page.designer.vb">
+      <DependentUpon>VP_Report_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09.VP_Report\VP_Report_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10.Analysis_Defect\Random_Analysis.designer.vb">
+      <DependentUpon>Random_Analysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="10.Analysis_Defect\Random_Analysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11.Reproduce_OneTime\OneTime_Page.designer.vb">
+      <DependentUpon>OneTime_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="11.Reproduce_OneTime\OneTime_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\Other_TC.designer.vb">
+      <DependentUpon>Other_TC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\Other_TC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\pathChk.designer.vb">
+      <DependentUpon>pathChk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\pathChk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\TC_Path.designer.vb">
+      <DependentUpon>TC_Path.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12.Purpose_TestCase\TC_Path.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13.MasterTC_Non\TestCase_GM.designer.vb">
+      <DependentUpon>TestCase_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13.MasterTC_Non\TestCase_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15.Basically_Testing\LocalSave.designer.vb">
+      <DependentUpon>LocalSave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="15.Basically_Testing\LocalSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15.Basically_Testing\Tips_GM.designer.vb">
+      <DependentUpon>Tips_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="15.Basically_Testing\Tips_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15.Basically_Testing\Tip_Request_GM.designer.vb">
+      <DependentUpon>Tip_Request_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="15.Basically_Testing\Tip_Request_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="16.Lesson_Learn\Lesson.designer.vb">
+      <DependentUpon>Lesson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="16.Lesson_Learn\Lesson.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="17.Horizontal development\Share_Info.designer.vb">
+      <DependentUpon>Share_Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="17.Horizontal development\Share_Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="19.Change_Note\Dictionary_GM2.designer.vb">
+      <DependentUpon>Dictionary_GM2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="19.Change_Note\Dictionary_GM2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="20.Consumer\Consumer.designer.vb">
+      <DependentUpon>Consumer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="20.Consumer\Consumer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="20.Consumer\Consumer_Add.designer.vb">
+      <DependentUpon>Consumer_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="20.Consumer\Consumer_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="21.Reliability_Kernel\Kernel.designer.vb">
+      <DependentUpon>Kernel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="21.Reliability_Kernel\Kernel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Upload.Designer.vb">
+      <DependentUpon>P_Project_Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Upload.Designer.vb">
+      <DependentUpon>M_Model_Plan_Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\App_Change.designer.vb">
+      <DependentUpon>App_Change.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\App_Change.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\3.Common\PM_Upload_RiskFactor.Designer.vb">
+      <DependentUpon>PM_Upload_RiskFactor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\3.Common\PM_Upload_RiskFactor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\M_Random_Plan_Page.Designer.vb">
+      <DependentUpon>M_Random_Plan_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\M_Random_Plan_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\3.Common\PM_Write_RiskFactor.Designer.vb">
+      <DependentUpon>PM_Write_RiskFactor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\3.Common\PM_Write_RiskFactor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\P_Project_Plan_Sub_Upload_NotUse.designer.vb">
+      <DependentUpon>P_Project_Plan_Sub_Upload_NotUse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\P_Project_Plan_Sub_Upload_NotUse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Change.designer.vb">
+      <DependentUpon>Change.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Change.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Change_Add_Tree.designer.vb">
+      <DependentUpon>Change_Add_Tree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Change_Add_Tree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\dataGridView_form.Designer.vb">
+      <DependentUpon>dataGridView_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\dataGridView_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Plan.Designer.vb">
+      <DependentUpon>P_Project_Plan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Plan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Func_Change.Designer.vb">
+      <DependentUpon>Func_Change.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Func_Change.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\func_DataGridView_Form.Designer.vb">
+      <DependentUpon>func_DataGridView_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\func_DataGridView_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\import_Reflection\import_reflection_view.Designer.vb">
+      <DependentUpon>import_reflection_view.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\import_Reflection\import_reflection_view.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Mapp.designer.vb">
+      <DependentUpon>M_Model_Plan_Mapp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Mapp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\ModifyInfo.Designer.vb">
+      <DependentUpon>ModifyInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\ModifyInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\PreviewForm.designer.vb">
+      <DependentUpon>PreviewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\PreviewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\New_RandomPlan_Page.Designer.vb">
+      <DependentUpon>New_RandomPlan_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\New_RandomPlan_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Model.Designer.vb">
+      <DependentUpon>Product_of_Model.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Model.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Project.Designer.vb">
+      <DependentUpon>Product_of_Project.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Project.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Tester.Designer.vb">
+      <DependentUpon>Product_of_Tester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Product_of_Tester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\P_Random_Plan_Page.designer.vb">
+      <DependentUpon>P_Random_Plan_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\Plan_Main\P_Random_Plan_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Risk_Factor.designer.vb">
+      <DependentUpon>Risk_Factor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Risk_Factor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Select_TC.designer.vb">
+      <DependentUpon>Select_TC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Select_TC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Sun_Preview_Form.Designer.vb">
+      <DependentUpon>Sun_Preview_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\Sun_Preview_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\P_Project_Plan_NotUse.Designer.vb">
+      <DependentUpon>P_Project_Plan_NotUse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\P_Project_Plan_NotUse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\SW_Validation_Master_Plan.Designer.vb">
+      <DependentUpon>SW_Validation_Master_Plan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\SW_Validation_Master_Plan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\TD_DATA.Designer.vb">
+      <DependentUpon>TD_DATA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan\old\TD_DATA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\SunClass.vb" />
+    <Compile Include="23.Random_Plan_v2.0\NUM_1\pl_updown.Designer.vb">
+      <DependentUpon>pl_updown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_1\pl_updown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_1\pl_data_modify.Designer.vb">
+      <DependentUpon>pl_data_modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_1\pl_data_modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_COMMON\pl_risk_upload.Designer.vb">
+      <DependentUpon>pl_risk_upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_COMMON\pl_risk_upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_COMMON\pl_Export_Upload.Designer.vb">
+      <DependentUpon>pl_Export_Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\NUM_COMMON\pl_Export_Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\plan_class.vb" />
+    <Compile Include="23.Random_Plan_v2.0\pl_select.Designer.vb">
+      <DependentUpon>pl_select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\pl_select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\PN_2_0_MAIN.Designer.vb">
+      <DependentUpon>PN_2_0_MAIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="23.Random_Plan_v2.0\PN_2_0_MAIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24.Survey\Edit_Survey.designer.vb">
+      <DependentUpon>Edit_Survey.vb</DependentUpon>
+    </Compile>
+    <Compile Include="24.Survey\Edit_Survey.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24.Survey\Survey.designer.vb">
+      <DependentUpon>Survey.vb</DependentUpon>
+    </Compile>
+    <Compile Include="24.Survey\Survey.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24.Survey\Survey_Select.designer.vb">
+      <DependentUpon>Survey_Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="24.Survey\Survey_Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="25.SIDE\SIDE_EFFECT.Designer.vb">
+      <DependentUpon>SIDE_EFFECT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="25.SIDE\SIDE_EFFECT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="25.SIDE\version_history.Designer.vb">
+      <DependentUpon>version_history.vb</DependentUpon>
+    </Compile>
+    <Compile Include="25.SIDE\version_history.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\AdminMain.designer.vb">
+      <DependentUpon>AdminMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\AdminMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\custom_msgbox.designer.vb">
+      <DependentUpon>custom_msgbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\custom_msgbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Admin_Add.Designer.vb">
+      <DependentUpon>Admin_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Admin_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\AppFeature_Edit.designer.vb">
+      <DependentUpon>AppFeature_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\AppFeature_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Contacts_Edit.designer.vb">
+      <DependentUpon>Contacts_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Contacts_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\OtherTC_Edit.designer.vb">
+      <DependentUpon>OtherTC_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\OtherTC_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\SunAppName.Designer.vb">
+      <DependentUpon>SunAppName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\SunAppName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Term_Edit_GM.designer.vb">
+      <DependentUpon>Term_Edit_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Term_Edit_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Tip_Edit_GM.designer.vb">
+      <DependentUpon>Tip_Edit_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Tip_Edit_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\TypeSymptom_Edit.designer.vb">
+      <DependentUpon>TypeSymptom_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\TypeSymptom_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Work_Guide_Edit.designer.vb">
+      <DependentUpon>Work_Guide_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Edit_System\Work_Guide_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\AppFeature_Admin.designer.vb">
+      <DependentUpon>AppFeature_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\AppFeature_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Consumer_Admin.designer.vb">
+      <DependentUpon>Consumer_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Consumer_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\App_Feature.designer.vb">
+      <DependentUpon>App_Feature.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\App_Feature.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Term_Admin_GM.designer.vb">
+      <DependentUpon>Term_Admin_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Term_Admin_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Tip_Admin_GM.designer.vb">
+      <DependentUpon>Tip_Admin_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Inquiry_System\Tip_Admin_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\PathForm.designer.vb">
+      <DependentUpon>PathForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\PathForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Mode\Survey_Result\Survey_Result.designer.vb">
+      <DependentUpon>Survey_Result.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\Survey_Result\Survey_Result.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History_test.designer.vb">
+      <DependentUpon>History_test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History_test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Noti.Designer.vb">
+      <DependentUpon>Noti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Noti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification_Message.vb" />
+    <Compile Include="Admin_Mode\TC_Path_GM.designer.vb">
+      <DependentUpon>TC_Path_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Mode\TC_Path_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="GC_Main_Update\Update_Popup.Designer.vb">
+      <DependentUpon>Update_Popup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GC_Main_Update\Update_Popup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Google_Login.Designer.vb">
+      <DependentUpon>Google_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Google_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.designer.vb">
+      <DependentUpon>History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.vb">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qportal_Settings.Designer.vb">
+      <DependentUpon>Qportal_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qportal_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Notification.Designer.vb">
+      <DependentUpon>Notification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Func_zip.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TD_DATA_FORM.Designer.vb">
+      <DependentUpon>TD_DATA_FORM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TD_DATA_FORM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEST\GotoURLMAn.Designer.vb">
+      <DependentUpon>GotoURLMAn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TEST\GotoURLMAn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XML.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.14.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="01.Dictionary\Dictionary_GM.resx">
+      <DependentUpon>Dictionary_GM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01.Dictionary\Terms_Request.resx">
+      <DependentUpon>Terms_Request.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02.Data of Education%28Not Use%29\Study_Contents.resx">
+      <DependentUpon>Study_Contents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03.Work Guide\Work_Guide.resx">
+      <DependentUpon>Work_Guide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03.Work Guide\Work_Guide_Sub.resx">
+      <DependentUpon>Work_Guide_Sub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04.Search Asset\Asset_Noti_etc.resx">
+      <DependentUpon>Asset_Noti_etc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05.Testing_Tools\TestTools.resx">
+      <DependentUpon>TestTools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06.Testing_Contents\Contents_form.resx">
+      <DependentUpon>Contents_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07.New_Template\Recent_Template.resx">
+      <DependentUpon>Recent_Template.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08.Detect TD\Search_App.resx">
+      <DependentUpon>Search_App.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08.Detect TD\set_Form.resx">
+      <DependentUpon>set_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08.Detect TD\Summary.resx">
+      <DependentUpon>Summary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08.Detect TD\Summary_Add.resx">
+      <DependentUpon>Summary_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08.Detect TD\Summary_NEXT.resx">
+      <DependentUpon>Summary_NEXT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09.VP_Report\VP_Report_Page.resx">
+      <DependentUpon>VP_Report_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10.Analysis_Defect\Random_Analysis.resx">
+      <DependentUpon>Random_Analysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11.Reproduce_OneTime\OneTime_Page.resx">
+      <DependentUpon>OneTime_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12.Purpose_TestCase\Other_TC.resx">
+      <DependentUpon>Other_TC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12.Purpose_TestCase\pathChk.resx">
+      <DependentUpon>pathChk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12.Purpose_TestCase\TC_Path.resx">
+      <DependentUpon>TC_Path.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13.MasterTC_Non\TestCase_GM.resx">
+      <DependentUpon>TestCase_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15.Basically_Testing\LocalSave.resx">
+      <DependentUpon>LocalSave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15.Basically_Testing\Tips_GM.resx">
+      <DependentUpon>Tips_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15.Basically_Testing\Tip_Request_GM.resx">
+      <DependentUpon>Tip_Request_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="16.Lesson_Learn\Lesson.resx">
+      <DependentUpon>Lesson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="17.Horizontal development\Share_Info.resx">
+      <DependentUpon>Share_Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="19.Change_Note\Dictionary_GM2.resx">
+      <DependentUpon>Dictionary_GM2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="20.Consumer\Consumer.resx">
+      <DependentUpon>Consumer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="20.Consumer\Consumer_Add.resx">
+      <DependentUpon>Consumer_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="21.Reliability_Kernel\Kernel.resx">
+      <DependentUpon>Kernel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Upload.resx">
+      <DependentUpon>P_Project_Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Upload.resx">
+      <DependentUpon>M_Model_Plan_Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\App_Change.resx">
+      <DependentUpon>App_Change.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\3.Common\PM_Upload_RiskFactor.resx">
+      <DependentUpon>PM_Upload_RiskFactor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\M_Random_Plan_Page.resx">
+      <DependentUpon>M_Random_Plan_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\3.Common\PM_Write_RiskFactor.resx">
+      <DependentUpon>PM_Write_RiskFactor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\P_Project_Plan_Sub_Upload_NotUse.resx">
+      <DependentUpon>P_Project_Plan_Sub_Upload_NotUse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Change.resx">
+      <DependentUpon>Change.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Change_Add_Tree.resx">
+      <DependentUpon>Change_Add_Tree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\dataGridView_form.resx">
+      <DependentUpon>dataGridView_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\1.Project_Plan\P_Project_Plan.resx">
+      <DependentUpon>P_Project_Plan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Func_Change.resx">
+      <DependentUpon>Func_Change.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\func_DataGridView_Form.resx">
+      <DependentUpon>func_DataGridView_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\import_Reflection\import_reflection_view.resx">
+      <DependentUpon>import_reflection_view.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\2.Model_Plan\M_Model_Plan_Mapp.resx">
+      <DependentUpon>M_Model_Plan_Mapp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\ModifyInfo.resx">
+      <DependentUpon>ModifyInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\PreviewForm.resx">
+      <DependentUpon>PreviewForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\New_RandomPlan_Page.resx">
+      <DependentUpon>New_RandomPlan_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Product_of_Model.resx">
+      <DependentUpon>Product_of_Model.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Product_of_Project.resx">
+      <DependentUpon>Product_of_Project.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Product_of_Tester.resx">
+      <DependentUpon>Product_of_Tester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\Plan_Main\P_Random_Plan_Page.resx">
+      <DependentUpon>P_Random_Plan_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Risk_Factor.resx">
+      <DependentUpon>Risk_Factor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Select_TC.resx">
+      <DependentUpon>Select_TC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\Sun_Preview_Form.resx">
+      <DependentUpon>Sun_Preview_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\P_Project_Plan_NotUse.resx">
+      <DependentUpon>P_Project_Plan_NotUse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\SW_Validation_Master_Plan.resx">
+      <DependentUpon>SW_Validation_Master_Plan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan\old\TD_DATA.resx">
+      <DependentUpon>TD_DATA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\NUM_1\pl_updown.resx">
+      <DependentUpon>pl_updown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\NUM_1\pl_data_modify.resx">
+      <DependentUpon>pl_data_modify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\NUM_COMMON\pl_risk_upload.resx">
+      <DependentUpon>pl_risk_upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\NUM_COMMON\pl_Export_Upload.resx">
+      <DependentUpon>pl_Export_Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\pl_select.resx">
+      <DependentUpon>pl_select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="23.Random_Plan_v2.0\PN_2_0_MAIN.resx">
+      <DependentUpon>PN_2_0_MAIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="24.Survey\Edit_Survey.resx">
+      <DependentUpon>Edit_Survey.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="24.Survey\Survey.resx">
+      <DependentUpon>Survey.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="24.Survey\Survey_Select.resx">
+      <DependentUpon>Survey_Select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="25.SIDE\SIDE_EFFECT.resx">
+      <DependentUpon>SIDE_EFFECT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="25.SIDE\version_history.resx">
+      <DependentUpon>version_history.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\AdminMain.resx">
+      <DependentUpon>AdminMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\custom_msgbox.resx">
+      <DependentUpon>custom_msgbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\Admin_Add.resx">
+      <DependentUpon>Admin_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\AppFeature_Edit.resx">
+      <DependentUpon>AppFeature_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\Contacts_Edit.resx">
+      <DependentUpon>Contacts_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\OtherTC_Edit.resx">
+      <DependentUpon>OtherTC_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\SunAppName.resx">
+      <DependentUpon>SunAppName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\Term_Edit_GM.resx">
+      <DependentUpon>Term_Edit_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\Tip_Edit_GM.resx">
+      <DependentUpon>Tip_Edit_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\TypeSymptom_Edit.resx">
+      <DependentUpon>TypeSymptom_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Edit_System\Work_Guide_Edit.resx">
+      <DependentUpon>Work_Guide_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Inquiry_System\AppFeature_Admin.resx">
+      <DependentUpon>AppFeature_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Inquiry_System\Consumer_Admin.resx">
+      <DependentUpon>Consumer_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Inquiry_System\App_Feature.resx">
+      <DependentUpon>App_Feature.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Inquiry_System\Term_Admin_GM.resx">
+      <DependentUpon>Term_Admin_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Inquiry_System\Tip_Admin_GM.resx">
+      <DependentUpon>Tip_Admin_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\PathForm.resx">
+      <DependentUpon>PathForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\Survey_Result\Survey_Result.resx">
+      <DependentUpon>Survey_Result.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History_test.resx">
+      <DependentUpon>History_test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="Noti.resx">
+      <DependentUpon>Noti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Mode\TC_Path_GM.resx">
+      <DependentUpon>TC_Path_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GC_Main_Update\Update_Popup.resx">
+      <DependentUpon>Update_Popup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Google_Login.resx">
+      <DependentUpon>Google_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qportal_Settings.resx">
+      <DependentUpon>Qportal_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification.resx">
+      <DependentUpon>Notification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TD_DATA_FORM.resx">
+      <DependentUpon>TD_DATA_FORM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEST\GotoURLMAn.resx">
+      <DependentUpon>GotoURLMAn.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>False</Private>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.PowerPoint">
+      <Guid>{91493440-5A91-11CF-8700-00AA0060263B}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>11</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game Center alt 2.ico" />
+    <Resource Include="Resources\09_search-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\117.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\20151012_561bae9e3bd57.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\256-256-2028abffa1ecf3367b951f128c5ca296.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\489px-Microsoft_Excel_2013_logo_svg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\7-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\analysis-icon_overall.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\book.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\books-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Checklist-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Circle-icons-check.svg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Circle-icons-image.svg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\circle-school-learn-study-subject-history-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Class+Icons-05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\comparisons-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Dictionary-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\flat-icon-png-40281.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\google-apps-admin-panel-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\grey_new_seo-01-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\help-icon-17010.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon-reflective.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\key-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\risk-analysis-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\toolkit-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\VP.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="iCon.ico" />
+    <None Include="Resources\background_image.bmp" />
+    <None Include="Resources\236993203_SCc5qk13_20160127021149_806946_600_388.jpg" />
+    <None Include="Resources\A201805140176_1_20180514103721437.jpg" />
+    <None Include="Resources\add.png" />
+    <Content Include="Resources\business-ideas.png" />
+    <None Include="Resources\db_add.png" />
+    <None Include="Resources\Help-icon.png" />
+    <Content Include="Resources\icon-suggest.png.982bd508bdf16be752ee84001db8deea.png" />
+    <None Include="Resources\icons.bmp" />
+    <None Include="Resources\iCon.png" />
+    <None Include="Resources\iCon.ico" />
+    <Content Include="Resources\ms_powerpoint_logo1600.png" />
+    <None Include="Resources\ms_powerpoint_logo16001.png" />
+    <None Include="Resources\Qportal_Icon.ico" />
+    <None Include="Resources\QPortalDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\t_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

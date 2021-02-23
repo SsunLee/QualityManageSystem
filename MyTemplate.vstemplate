@@ -1,0 +1,566 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Sunbae_1809171</Name>
+    <Description>&lt;사용할 수 있는 설명 없음&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Sunbae_1809171</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Sunbae_1809171.vbproj" File="Sunbae_1809171.vbproj" ReplaceParameters="true">
+      <Folder Name="01.Dictionary" TargetFolderName="01.Dictionary">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM.vb">Dictionary_GM.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM.designer.vb">Dictionary_GM.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM.resx">Dictionary_GM.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Terms_Request.vb">Terms_Request.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Terms_Request.Designer.vb">Terms_Request.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Terms_Request.resx">Terms_Request.resx</ProjectItem>
+      </Folder>
+      <Folder Name="02.Data of Education(Not Use)" TargetFolderName="02.Data of Education(Not Use)">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Study_Contents.vb">Study_Contents.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Study_Contents.designer.vb">Study_Contents.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Study_Contents.resx">Study_Contents.resx</ProjectItem>
+      </Folder>
+      <Folder Name="03.Work Guide" TargetFolderName="03.Work Guide">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide.vb">Work_Guide.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide.designer.vb">Work_Guide.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide.resx">Work_Guide.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Sub.vb">Work_Guide_Sub.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Sub.designer.vb">Work_Guide_Sub.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Sub.resx">Work_Guide_Sub.resx</ProjectItem>
+      </Folder>
+      <Folder Name="04.Search Asset" TargetFolderName="04.Search Asset">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Asset_Noti_etc.vb">Asset_Noti_etc.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Asset_Noti_etc.designer.vb">Asset_Noti_etc.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Asset_Noti_etc.resx">Asset_Noti_etc.resx</ProjectItem>
+      </Folder>
+      <Folder Name="05.Testing_Tools" TargetFolderName="05.Testing_Tools">
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestTools.vb">TestTools.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestTools.designer.vb">TestTools.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestTools.resx">TestTools.resx</ProjectItem>
+      </Folder>
+      <Folder Name="06.Testing_Contents" TargetFolderName="06.Testing_Contents">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Contents_form.vb">Contents_form.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Contents_form.designer.vb">Contents_form.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Contents_form.resx">Contents_form.resx</ProjectItem>
+      </Folder>
+      <Folder Name="07.New_Template" TargetFolderName="07.New_Template">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Recent_Template.vb">Recent_Template.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Recent_Template.designer.vb">Recent_Template.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Recent_Template.resx">Recent_Template.resx</ProjectItem>
+      </Folder>
+      <Folder Name="08.Detect TD" TargetFolderName="08.Detect TD">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search_App.vb">Search_App.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search_App.designer.vb">Search_App.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search_App.resx">Search_App.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="set_Form.vb">set_Form.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="set_Form.Designer.vb">set_Form.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="set_Form.resx">set_Form.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary.vb">Summary.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary.designer.vb">Summary.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary.resx">Summary.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_Add.vb">Summary_Add.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_Add.designer.vb">Summary_Add.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_Add.resx">Summary_Add.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_NEXT.vb">Summary_NEXT.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_NEXT.designer.vb">Summary_NEXT.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Summary_NEXT.resx">Summary_NEXT.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Table_class.vb">Table_class.vb</ProjectItem>
+      </Folder>
+      <Folder Name="09.VP_Report" TargetFolderName="09.VP_Report">
+        <ProjectItem ReplaceParameters="true" TargetFileName="VP_Report_Page.vb">VP_Report_Page.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VP_Report_Page.designer.vb">VP_Report_Page.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VP_Report_Page.resx">VP_Report_Page.resx</ProjectItem>
+      </Folder>
+      <Folder Name="10.Analysis_Defect" TargetFolderName="10.Analysis_Defect">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Random_Analysis.vb">Random_Analysis.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Random_Analysis.designer.vb">Random_Analysis.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Random_Analysis.resx">Random_Analysis.resx</ProjectItem>
+      </Folder>
+      <Folder Name="11.Reproduce_OneTime" TargetFolderName="11.Reproduce_OneTime">
+        <ProjectItem ReplaceParameters="true" TargetFileName="OneTime_Page.vb">OneTime_Page.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="OneTime_Page.designer.vb">OneTime_Page.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="OneTime_Page.resx">OneTime_Page.resx</ProjectItem>
+      </Folder>
+      <Folder Name="12.Purpose_TestCase" TargetFolderName="12.Purpose_TestCase">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Other_TC.vb">Other_TC.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Other_TC.designer.vb">Other_TC.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Other_TC.resx">Other_TC.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pathChk.vb">pathChk.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pathChk.designer.vb">pathChk.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pathChk.resx">pathChk.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path.vb">TC_Path.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path.designer.vb">TC_Path.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path.resx">TC_Path.resx</ProjectItem>
+      </Folder>
+      <Folder Name="13.MasterTC_Non" TargetFolderName="13.MasterTC_Non">
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestCase_GM.vb">TestCase_GM.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestCase_GM.designer.vb">TestCase_GM.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestCase_GM.resx">TestCase_GM.resx</ProjectItem>
+      </Folder>
+      <Folder Name="14.MasterTC_Func" TargetFolderName="14.MasterTC_Func" />
+      <Folder Name="15.Basically_Testing" TargetFolderName="15.Basically_Testing">
+        <ProjectItem ReplaceParameters="true" TargetFileName="LocalSave.vb">LocalSave.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LocalSave.designer.vb">LocalSave.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LocalSave.resx">LocalSave.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Request_GM.vb">Tip_Request_GM.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Request_GM.designer.vb">Tip_Request_GM.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Request_GM.resx">Tip_Request_GM.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tips_GM.vb">Tips_GM.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tips_GM.designer.vb">Tips_GM.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tips_GM.resx">Tips_GM.resx</ProjectItem>
+      </Folder>
+      <Folder Name="16.Lesson_Learn" TargetFolderName="16.Lesson_Learn">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Lesson.vb">Lesson.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Lesson.designer.vb">Lesson.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Lesson.resx">Lesson.resx</ProjectItem>
+      </Folder>
+      <Folder Name="17.Horizontal development" TargetFolderName="17.Horizontal development">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Share_Info.vb">Share_Info.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Share_Info.designer.vb">Share_Info.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Share_Info.resx">Share_Info.resx</ProjectItem>
+      </Folder>
+      <Folder Name="18.Delta_CheckList" TargetFolderName="18.Delta_CheckList" />
+      <Folder Name="19.Change_Note" TargetFolderName="19.Change_Note">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM2.vb">Dictionary_GM2.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM2.designer.vb">Dictionary_GM2.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dictionary_GM2.resx">Dictionary_GM2.resx</ProjectItem>
+      </Folder>
+      <Folder Name="20.Consumer" TargetFolderName="20.Consumer">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer.vb">Consumer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer.designer.vb">Consumer.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer.resx">Consumer.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Add.vb">Consumer_Add.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Add.designer.vb">Consumer_Add.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Add.resx">Consumer_Add.resx</ProjectItem>
+      </Folder>
+      <Folder Name="21.Reliability_Kernel" TargetFolderName="21.Reliability_Kernel">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Kernel.vb">Kernel.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Kernel.designer.vb">Kernel.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Kernel.resx">Kernel.resx</ProjectItem>
+      </Folder>
+      <Folder Name="22.3rd_Party" TargetFolderName="22.3rd_Party" />
+      <Folder Name="23.Random_Plan" TargetFolderName="23.Random_Plan">
+        <ProjectItem ReplaceParameters="true" TargetFileName="App_Change.vb">App_Change.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="App_Change.designer.vb">App_Change.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="App_Change.resx">App_Change.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change.vb">Change.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change.designer.vb">Change.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change.resx">Change.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change_Add_Tree.vb">Change_Add_Tree.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change_Add_Tree.designer.vb">Change_Add_Tree.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Change_Add_Tree.resx">Change_Add_Tree.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dataGridView_form.vb">dataGridView_form.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dataGridView_form.Designer.vb">dataGridView_form.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dataGridView_form.resx">dataGridView_form.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Func_Change.vb">Func_Change.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Func_Change.Designer.vb">Func_Change.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Func_Change.resx">Func_Change.resx</ProjectItem>
+        <Folder Name="import_Reflection" TargetFolderName="import_Reflection">
+          <ProjectItem ReplaceParameters="true" TargetFileName="import_reflection_view.vb">import_reflection_view.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="import_reflection_view.Designer.vb">import_reflection_view.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="import_reflection_view.resx">import_reflection_view.resx</ProjectItem>
+        </Folder>
+        <Folder Name="old" TargetFolderName="old">
+          <ProjectItem ReplaceParameters="true" TargetFileName="func_DataGridView_Form.vb">func_DataGridView_Form.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="func_DataGridView_Form.Designer.vb">func_DataGridView_Form.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="func_DataGridView_Form.resx">func_DataGridView_Form.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ModifyInfo.vb">ModifyInfo.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ModifyInfo.Designer.vb">ModifyInfo.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ModifyInfo.resx">ModifyInfo.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="New_RandomPlan_Page.vb">New_RandomPlan_Page.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="New_RandomPlan_Page.Designer.vb">New_RandomPlan_Page.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="New_RandomPlan_Page.resx">New_RandomPlan_Page.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_NotUse.vb">P_Project_Plan_NotUse.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_NotUse.Designer.vb">P_Project_Plan_NotUse.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_NotUse.resx">P_Project_Plan_NotUse.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_Sub_Upload_NotUse.vb">P_Project_Plan_Sub_Upload_NotUse.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_Sub_Upload_NotUse.designer.vb">P_Project_Plan_Sub_Upload_NotUse.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan_Sub_Upload_NotUse.resx">P_Project_Plan_Sub_Upload_NotUse.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PreviewForm.vb">PreviewForm.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PreviewForm.designer.vb">PreviewForm.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PreviewForm.resx">PreviewForm.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Model.vb">Product_of_Model.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Model.Designer.vb">Product_of_Model.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Model.resx">Product_of_Model.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Project.vb">Product_of_Project.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Project.Designer.vb">Product_of_Project.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Project.resx">Product_of_Project.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Tester.vb">Product_of_Tester.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Tester.Designer.vb">Product_of_Tester.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Product_of_Tester.resx">Product_of_Tester.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Risk_Factor.vb">Risk_Factor.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Risk_Factor.designer.vb">Risk_Factor.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Risk_Factor.resx">Risk_Factor.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Select_TC.vb">Select_TC.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Select_TC.designer.vb">Select_TC.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Select_TC.resx">Select_TC.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sun_Preview_Form.vb">Sun_Preview_Form.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sun_Preview_Form.Designer.vb">Sun_Preview_Form.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sun_Preview_Form.resx">Sun_Preview_Form.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SW_Validation_Master_Plan.vb">SW_Validation_Master_Plan.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SW_Validation_Master_Plan.Designer.vb">SW_Validation_Master_Plan.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SW_Validation_Master_Plan.resx">SW_Validation_Master_Plan.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA.vb">TD_DATA.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA.Designer.vb">TD_DATA.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA.resx">TD_DATA.resx</ProjectItem>
+        </Folder>
+        <Folder Name="Plan_Main" TargetFolderName="Plan_Main">
+          <Folder Name="1.Project_Plan" TargetFolderName="1.Project_Plan">
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan.vb">P_Project_Plan.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan.Designer.vb">P_Project_Plan.Designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Plan.resx">P_Project_Plan.resx</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Upload.vb">P_Project_Upload.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Upload.Designer.vb">P_Project_Upload.Designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="P_Project_Upload.resx">P_Project_Upload.resx</ProjectItem>
+          </Folder>
+          <Folder Name="2.Model_Plan" TargetFolderName="2.Model_Plan">
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Mapp.vb">M_Model_Plan_Mapp.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Mapp.designer.vb">M_Model_Plan_Mapp.designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Mapp.resx">M_Model_Plan_Mapp.resx</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Upload.vb">M_Model_Plan_Upload.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Upload.Designer.vb">M_Model_Plan_Upload.Designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="M_Model_Plan_Upload.resx">M_Model_Plan_Upload.resx</ProjectItem>
+          </Folder>
+          <Folder Name="3.Common" TargetFolderName="3.Common">
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Upload_RiskFactor.vb">PM_Upload_RiskFactor.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Upload_RiskFactor.Designer.vb">PM_Upload_RiskFactor.Designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Upload_RiskFactor.resx">PM_Upload_RiskFactor.resx</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Write_RiskFactor.vb">PM_Write_RiskFactor.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Write_RiskFactor.Designer.vb">PM_Write_RiskFactor.Designer.vb</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PM_Write_RiskFactor.resx">PM_Write_RiskFactor.resx</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="M_Random_Plan_Page.vb">M_Random_Plan_Page.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="M_Random_Plan_Page.Designer.vb">M_Random_Plan_Page.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="M_Random_Plan_Page.resx">M_Random_Plan_Page.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Random_Plan_Page.vb">P_Random_Plan_Page.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Random_Plan_Page.designer.vb">P_Random_Plan_Page.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="P_Random_Plan_Page.resx">P_Random_Plan_Page.resx</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="23.Random_Plan_v2.0" TargetFolderName="23.Random_Plan_v2.0">
+        <Folder Name="NUM_1" TargetFolderName="NUM_1">
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_data_modify.vb">pl_data_modify.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_data_modify.Designer.vb">pl_data_modify.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_data_modify.resx">pl_data_modify.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_updown.vb">pl_updown.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_updown.Designer.vb">pl_updown.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_updown.resx">pl_updown.resx</ProjectItem>
+        </Folder>
+        <Folder Name="NUM_3" TargetFolderName="NUM_3" />
+        <Folder Name="NUM_COMMON" TargetFolderName="NUM_COMMON">
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_Export_Upload.vb">pl_Export_Upload.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_Export_Upload.Designer.vb">pl_Export_Upload.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_Export_Upload.resx">pl_Export_Upload.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_risk_upload.vb">pl_risk_upload.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_risk_upload.Designer.vb">pl_risk_upload.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="pl_risk_upload.resx">pl_risk_upload.resx</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pl_select.vb">pl_select.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pl_select.Designer.vb">pl_select.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="pl_select.resx">pl_select.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="plan_class.vb">plan_class.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PN_2_0_MAIN.vb">PN_2_0_MAIN.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PN_2_0_MAIN.Designer.vb">PN_2_0_MAIN.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PN_2_0_MAIN.resx">PN_2_0_MAIN.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SunClass.vb">SunClass.vb</ProjectItem>
+      </Folder>
+      <Folder Name="24.Survey" TargetFolderName="24.Survey">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Edit_Survey.vb">Edit_Survey.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Edit_Survey.designer.vb">Edit_Survey.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Edit_Survey.resx">Edit_Survey.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey.vb">Survey.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey.designer.vb">Survey.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey.resx">Survey.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Select.vb">Survey_Select.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Select.designer.vb">Survey_Select.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Select.resx">Survey_Select.resx</ProjectItem>
+      </Folder>
+      <Folder Name="25.SIDE" TargetFolderName="25.SIDE">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SIDE_EFFECT.vb">SIDE_EFFECT.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SIDE_EFFECT.Designer.vb">SIDE_EFFECT.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SIDE_EFFECT.resx">SIDE_EFFECT.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="version_history.vb">version_history.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="version_history.Designer.vb">version_history.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="version_history.resx">version_history.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Admin_Mode" TargetFolderName="Admin_Mode">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminMain.vb">AdminMain.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminMain.designer.vb">AdminMain.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminMain.resx">AdminMain.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="custom_msgbox.vb">custom_msgbox.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="custom_msgbox.designer.vb">custom_msgbox.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="custom_msgbox.resx">custom_msgbox.resx</ProjectItem>
+        <Folder Name="Edit_System" TargetFolderName="Edit_System">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Add.vb">Admin_Add.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Add.Designer.vb">Admin_Add.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Add.resx">Admin_Add.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Edit.vb">AppFeature_Edit.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Edit.designer.vb">AppFeature_Edit.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Edit.resx">AppFeature_Edit.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Contacts_Edit.vb">Contacts_Edit.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Contacts_Edit.designer.vb">Contacts_Edit.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Contacts_Edit.resx">Contacts_Edit.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OtherTC_Edit.vb">OtherTC_Edit.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OtherTC_Edit.designer.vb">OtherTC_Edit.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OtherTC_Edit.resx">OtherTC_Edit.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SunAppName.vb">SunAppName.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SunAppName.Designer.vb">SunAppName.Designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SunAppName.resx">SunAppName.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Edit_GM.vb">Term_Edit_GM.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Edit_GM.designer.vb">Term_Edit_GM.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Edit_GM.resx">Term_Edit_GM.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Edit_GM.vb">Tip_Edit_GM.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Edit_GM.designer.vb">Tip_Edit_GM.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Edit_GM.resx">Tip_Edit_GM.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TypeSymptom_Edit.vb">TypeSymptom_Edit.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TypeSymptom_Edit.designer.vb">TypeSymptom_Edit.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TypeSymptom_Edit.resx">TypeSymptom_Edit.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Edit.vb">Work_Guide_Edit.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Edit.designer.vb">Work_Guide_Edit.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Work_Guide_Edit.resx">Work_Guide_Edit.resx</ProjectItem>
+        </Folder>
+        <Folder Name="Inquiry_System" TargetFolderName="Inquiry_System">
+          <ProjectItem ReplaceParameters="true" TargetFileName="App_Feature.vb">App_Feature.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="App_Feature.designer.vb">App_Feature.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="App_Feature.resx">App_Feature.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Admin.vb">AppFeature_Admin.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Admin.designer.vb">AppFeature_Admin.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppFeature_Admin.resx">AppFeature_Admin.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Admin.vb">Consumer_Admin.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Admin.designer.vb">Consumer_Admin.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Consumer_Admin.resx">Consumer_Admin.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Admin_GM.vb">Term_Admin_GM.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Admin_GM.designer.vb">Term_Admin_GM.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Term_Admin_GM.resx">Term_Admin_GM.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Admin_GM.vb">Tip_Admin_GM.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Admin_GM.designer.vb">Tip_Admin_GM.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tip_Admin_GM.resx">Tip_Admin_GM.resx</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.vb">Login.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.designer.vb">Login.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.resx">Login.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PathForm.vb">PathForm.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PathForm.designer.vb">PathForm.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PathForm.resx">PathForm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search.vb">Search.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search.Designer.vb">Search.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Search.resx">Search.resx</ProjectItem>
+        <Folder Name="Survey_Result" TargetFolderName="Survey_Result">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Result.vb">Survey_Result.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Result.designer.vb">Survey_Result.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Survey_Result.resx">Survey_Result.resx</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path_GM.vb">TC_Path_GM.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path_GM.designer.vb">TC_Path_GM.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TC_Path_GM.resx">TC_Path_GM.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Class1.vb">Class1.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Func_zip.vb">Func_zip.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game Center alt 2.ico">Game Center alt 2.ico</ProjectItem>
+      <Folder Name="GC_Main_Update" TargetFolderName="GC_Main_Update">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Update_Popup.vb">Update_Popup.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Update_Popup.Designer.vb">Update_Popup.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Update_Popup.resx">Update_Popup.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Google_Login.vb">Google_Login.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Google_Login.Designer.vb">Google_Login.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Google_Login.resx">Google_Login.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History.vb">History.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History.designer.vb">History.designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History.resx">History.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History_test.vb">History_test.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History_test.designer.vb">History_test.designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="History_test.resx">History_test.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="iCon.ico">iCon.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main_Form.vb">Main_Form.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main_Form.Designer.vb">Main_Form.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main_Form.resx">Main_Form.resx</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="false" TargetFileName="app.manifest">app.manifest</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <Folder Name="DataSources" TargetFolderName="DataSources">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._ADO.datasource">ADODB._ADO.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Collection.datasource">ADODB._Collection.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Command.datasource">ADODB._Command.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Connection.datasource">ADODB._Connection.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._DynaCollection.datasource">ADODB._DynaCollection.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Parameter.datasource">ADODB._Parameter.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Record.datasource">ADODB._Record.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Recordset.datasource">ADODB._Recordset.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB._Stream.datasource">ADODB._Stream.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADOCommandConstruction.datasource">ADODB.ADOCommandConstruction.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADOConnectionConstruction.datasource">ADODB.ADOConnectionConstruction.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADOConnectionConstruction15.datasource">ADODB.ADOConnectionConstruction15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADORecordConstruction.datasource">ADODB.ADORecordConstruction.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADORecordsetConstruction.datasource">ADODB.ADORecordsetConstruction.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ADOStreamConstruction.datasource">ADODB.ADOStreamConstruction.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Command.datasource">ADODB.Command.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Command15.datasource">ADODB.Command15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Command25.datasource">ADODB.Command25.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.CommandClass.datasource">ADODB.CommandClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Connection.datasource">ADODB.Connection.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Connection15.datasource">ADODB.Connection15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionClass.datasource">ADODB.ConnectionClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents.datasource">ADODB.ConnectionEvents.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_BeginTransCompleteEventHandler.datasource">ADODB.ConnectionEvents_BeginTransCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_CommitTransCompleteEventHandler.datasource">ADODB.ConnectionEvents_CommitTransCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_ConnectCompleteEventHandler.datasource">ADODB.ConnectionEvents_ConnectCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_DisconnectEventHandler.datasource">ADODB.ConnectionEvents_DisconnectEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_Event.datasource">ADODB.ConnectionEvents_Event.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_ExecuteCompleteEventHandler.datasource">ADODB.ConnectionEvents_ExecuteCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_InfoMessageEventHandler.datasource">ADODB.ConnectionEvents_InfoMessageEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_RollbackTransCompleteEventHandler.datasource">ADODB.ConnectionEvents_RollbackTransCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_SinkHelper.datasource">ADODB.ConnectionEvents_SinkHelper.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_WillConnectEventHandler.datasource">ADODB.ConnectionEvents_WillConnectEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEvents_WillExecuteEventHandler.datasource">ADODB.ConnectionEvents_WillExecuteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ConnectionEventsVt.datasource">ADODB.ConnectionEventsVt.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Error.datasource">ADODB.Error.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Errors.datasource">ADODB.Errors.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Field.datasource">ADODB.Field.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Field15.datasource">ADODB.Field15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Field20.datasource">ADODB.Field20.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Fields.datasource">ADODB.Fields.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Fields15.datasource">ADODB.Fields15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Fields20.datasource">ADODB.Fields20.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Parameter.datasource">ADODB.Parameter.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.ParameterClass.datasource">ADODB.ParameterClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Parameters.datasource">ADODB.Parameters.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Properties.datasource">ADODB.Properties.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Property.datasource">ADODB.Property.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Record.datasource">ADODB.Record.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordClass.datasource">ADODB.RecordClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Recordset.datasource">ADODB.Recordset.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Recordset15.datasource">ADODB.Recordset15.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Recordset20.datasource">ADODB.Recordset20.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Recordset21.datasource">ADODB.Recordset21.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetClass.datasource">ADODB.RecordsetClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents.datasource">ADODB.RecordsetEvents.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_EndOfRecordsetEventHandler.datasource">ADODB.RecordsetEvents_EndOfRecordsetEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_Event.datasource">ADODB.RecordsetEvents_Event.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_FetchCompleteEventHandler.datasource">ADODB.RecordsetEvents_FetchCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_FetchProgressEventHandler.datasource">ADODB.RecordsetEvents_FetchProgressEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_FieldChangeCompleteEventHandler.datasource">ADODB.RecordsetEvents_FieldChangeCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_MoveCompleteEventHandler.datasource">ADODB.RecordsetEvents_MoveCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_RecordChangeCompleteEventHandler.datasource">ADODB.RecordsetEvents_RecordChangeCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_RecordsetChangeCompleteEventHandler.datasource">ADODB.RecordsetEvents_RecordsetChangeCompleteEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_SinkHelper.datasource">ADODB.RecordsetEvents_SinkHelper.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_WillChangeFieldEventHandler.datasource">ADODB.RecordsetEvents_WillChangeFieldEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_WillChangeRecordEventHandler.datasource">ADODB.RecordsetEvents_WillChangeRecordEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_WillChangeRecordsetEventHandler.datasource">ADODB.RecordsetEvents_WillChangeRecordsetEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEvents_WillMoveEventHandler.datasource">ADODB.RecordsetEvents_WillMoveEventHandler.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.RecordsetEventsVt.datasource">ADODB.RecordsetEventsVt.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.Stream.datasource">ADODB.Stream.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ADODB.StreamClass.datasource">ADODB.StreamClass.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Form1.datasource">Form1.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Form2.datasource">Form2.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.InstallCompletedEventArgs.datasource">InstallManager.Msi.InstallCompletedEventArgs.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiActionMessage.datasource">InstallManager.Msi.MsiActionMessage.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiCancelShowMessage.datasource">InstallManager.Msi.MsiCancelShowMessage.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiCaptionMessage.datasource">InstallManager.Msi.MsiCaptionMessage.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiCommonDataMessage.datasource">InstallManager.Msi.MsiCommonDataMessage.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiInstallerSession.datasource">InstallManager.Msi.MsiInstallerSession.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiLanguageMessage.datasource">InstallManager.Msi.MsiLanguageMessage.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiMessageEventArgs.datasource">InstallManager.Msi.MsiMessageEventArgs.datasource</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="InstallManager.Msi.MsiProgressMessage.datasource">InstallManager.Msi.MsiProgressMessage.datasource</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="licenses.licx">licenses.licx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Noti.vb">Noti.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Noti.Designer.vb">Noti.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Noti.resx">Noti.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notification.vb">Notification.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notification.Designer.vb">Notification.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notification.resx">Notification.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notification_Message.vb">Notification_Message.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Project1_TemporaryKey.pfx">Project1_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Project2_TemporaryKey.pfx">Project2_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Qportal_Settings.vb">Qportal_Settings.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Qportal_Settings.Designer.vb">Qportal_Settings.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Qportal_Settings.resx">Qportal_Settings.resx</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="09_search-512.png">09_search-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="117.png">117.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="20151012_561bae9e3bd57.png">20151012_561bae9e3bd57.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="236993203_SCc5qk13_20160127021149_806946_600_388.jpg">236993203_SCc5qk13_20160127021149_806946_600_388.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="256-256-2028abffa1ecf3367b951f128c5ca296.png">256-256-2028abffa1ecf3367b951f128c5ca296.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="489px-Microsoft_Excel_2013_logo_svg.png">489px-Microsoft_Excel_2013_logo_svg.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="7-512.png">7-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="9.png">9.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="A201805140176_1_20180514103721437.jpg">A201805140176_1_20180514103721437.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="add.png">add.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="analysis-icon_overall.png">analysis-icon_overall.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="background_image.bmp">background_image.bmp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="book.png">book.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="books-icon.png">books-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="business-ideas.png">business-ideas.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Checklist-icon.png">Checklist-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Circle-icons-check.svg.png">Circle-icons-check.svg.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Circle-icons-image.svg.png">Circle-icons-image.svg.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="circle-school-learn-study-subject-history-512.png">circle-school-learn-study-subject-history-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Class+Icons-05.png">Class+Icons-05.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="comparisons-512.png">comparisons-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="db_add.png">db_add.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Dictionary-icon.png">Dictionary-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="flat-icon-png-40281.png">flat-icon-png-40281.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="google-apps-admin-panel-icon.png">google-apps-admin-panel-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="grey_new_seo-01-512.png">grey_new_seo-01-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="help-icon-17010.png">help-icon-17010.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Help-icon.png">Help-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon-reflective.png">icon-reflective.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon-suggest.png.982bd508bdf16be752ee84001db8deea.png">icon-suggest.png.982bd508bdf16be752ee84001db8deea.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCon.ico">iCon.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="iCon.png">iCon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icons.bmp">icons.bmp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="key-512.png">key-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LG로고.PNG">vstg0001.PNG</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ms_powerpoint_logo1600.png">ms_powerpoint_logo1600.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ms_powerpoint_logo16001.png">ms_powerpoint_logo16001.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Qportal_Icon.ico">Qportal_Icon.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="QPortalDB.accdb">QPortalDB.accdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="risk-analysis-512.png">risk-analysis-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="t_icon.png">t_icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="toolkit-1.png">toolkit-1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="VP.png">VP.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="그림1.png">vstg0002.png</ProjectItem>
+      </Folder>
+      <Folder Name="Service References" TargetFolderName="Service References" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.vb">Settings.vb</ProjectItem>
+      <Folder Name="Suggest" TargetFolderName="Suggest">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_Admin.vb">Suggest_Admin.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_Admin.designer.vb">Suggest_Admin.designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_Admin.resx">Suggest_Admin.resx</ProjectItem>
+        <Folder Name="vstg0003" TargetFolderName="제안하기_Activity">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest.vb">Suggest.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest.designer.vb">Suggest.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest.resx">Suggest.resx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_List.vb">Suggest_List.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_List.designer.vb">Suggest_List.designer.vb</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Suggest_List.resx">Suggest_List.resx</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA_FORM.vb">TD_DATA_FORM.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA_FORM.Designer.vb">TD_DATA_FORM.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TD_DATA_FORM.resx">TD_DATA_FORM.resx</ProjectItem>
+      <Folder Name="TEST" TargetFolderName="TEST">
+        <ProjectItem ReplaceParameters="true" TargetFileName="GotoURLMAn.vb">GotoURLMAn.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GotoURLMAn.Designer.vb">GotoURLMAn.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GotoURLMAn.resx">GotoURLMAn.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="XML.vb">XML.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
